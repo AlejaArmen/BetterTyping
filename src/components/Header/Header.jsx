@@ -8,10 +8,9 @@ export default function Header() {
       <div className="w-14 h-14 bg-forest-green-500"/>
       <h1 className="text-2xl font-bold">Better Typing</h1>
     </div>
-   
         <nav className="flex gap-4">
-          <Link href="/login">Iniciar sesión</Link>
-          <Link href="/info">Informacion</Link>
+          <Link href="/login" className="hover:text-forest-green-700 hover:underline">Iniciar sesión</Link>
+          <Link href="/info" className="hover:text-forest-green-700 hover:underline">Informacion</Link>
         </nav>
     </header>
   );
