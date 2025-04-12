@@ -1,4 +1,31 @@
 @import "tailwindcss";
 
-*{margin: 0;
-padding: 0;}
+/* *{margin: 0;
+padding: 0;} */
+
+@theme {
+    --color-forest-green-50: #f1fcf2;
+    --color-forest-green-100: #dff9e3;
+    --color-forest-green-200: #c0f2c7;
+    --color-forest-green-300: #8ee79c;
+    --color-forest-green-400: #56d26a;
+    --color-forest-green-500: #2fb845;
+    --color-forest-green-600: #209233;
+    --color-forest-green-700: #1e772d;
+    --color-forest-green-800: #1c5f28;
+    --color-forest-green-900: #194e23;
+    --color-forest-green-950: #082b10;
+    --color-bone: #fefcf9;
+    --color-neutro: #fdfaf5;
+
+    /*
+    Propuestas de colores solidos como fondos
+    Verde hielo  #f3faf7
+
+    Beige neutro #fdfaf5
+
+    Arena suave  #fefcf9
+    */
+
+}
+

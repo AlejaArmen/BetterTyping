@@ -1,4 +1,4 @@
-import { Lexend } from "next/font/google";
+import { Lexend, Noto_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
@@ -6,7 +6,10 @@ import Footer from "@/components/Footer/Footer";
 
 const lexend = Lexend({
   subsets : ['latin'],
-  variable: "--font-lexend",
+  display: 'swap'
+});
+const noto = Noto_Sans({
+  subsets : ['latin'],
   display: 'swap'
 });
 
@@ -23,7 +26,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${lexend.variable} antialiased`}
+        className={`${lexend.className} antialiased bg-bone`}
       >
       <Header />
         <main>{children}</main>
